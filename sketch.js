@@ -40,7 +40,7 @@ function preload() {
 //--------------------------------------------------------SETUP
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  quantity = 1;
+  quantity = round(random(1, 5));
   howManyTime = round(random(15, 60));
   speed = random(0.1, 1);
   divider = random(dividerArray);
